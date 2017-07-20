@@ -85,6 +85,7 @@ function validateEmail(email){
 // Validate Selected Countries
 function validateSelect(x){
 
+    // When a new <option> is selected
     if(document.getElementById(x).selectedIndex !== 0){
 
         // if true change the box background to green
@@ -139,6 +140,7 @@ function validateForm() {
     }
 }
 
+//The handler function to be called when the window's load event fires
 window.onload = function() {
 
     document.getElementsByTagName('form')[0].onsubmit = function() {

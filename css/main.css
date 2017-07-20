@@ -472,8 +472,18 @@ div.desc {
 }
 
 .section-two {
+
+    /* Display-inside value:
+    The element behaves like a block element,
+    lays out its content according to the flexbox model.*/
     display: flex;
+
+    /*The flex items break into multiple lines.*/
     flex-wrap: wrap;
+
+    /* Distribute items evenly
+     The first item is flush with the start,
+    the last is flush with the end */
     justify-content: space-between;
 }
 
@@ -487,7 +497,7 @@ div.desc {
 #section-nav h4 {
     color: #45576b;
     font-weight: bold;
-    transition: all ease-in-out 600ms;
+    transition: all 600ms ease-in-out;
     margin-bottom: 25px;
     padding-bottom: 15px;
     border-bottom: 1px solid #ee5746;
